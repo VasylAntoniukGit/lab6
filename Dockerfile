@@ -1,5 +1,5 @@
 FROM ubuntu
-MAINTANER Vasyl Antoniuk
+MAINTAINER Vasyl Antoniuk
 RUN apt-get update -y
 RUN apt-get install -y apache2
 EXPOSE 80
